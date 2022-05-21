@@ -1,0 +1,79 @@
+:root {
+  --white: #ffffff;
+  --primary: hsl(215, 51%, 70%);
+  --accent: hsl(178, 100%, 50%);
+  --mainBG: hsl(217, 54%, 11%);
+  --cardBG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+}
+
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--mainBG);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+p {
+  color: var(--primary);
+  font-weight: 300;
+  line-height: 1.6rem;
+}
+
+.horizontal-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.card {
+  background: var(--cardBG);
+  width: 20rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 2.5rem 2rem -1rem rgb(128 128 128 / 17%);
+}
+
+.card-image {
+  max-width: 100%;
+  border-radius: 0.6rem;
+  align-self: center;
+}
+
+.price {
+  color: var(--accent);
+  font-weight: 400;
+}
+
+.avatar {
+  width: 2.5em;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: var(--white);
+}
