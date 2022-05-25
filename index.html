@@ -3,13 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
     <title>Frontend Mentor | NFT preview card component</title>
     <link rel="stylesheet" href="main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,11 +15,12 @@
   </head>
   <body>
     <div class="card" role="main">
-      <img
-        src="images/image-equilibrium.jpg"
-        alt="Equilibrium Image"
-        class="card-image"
-      />
+      <div class="image-section">
+        <img src="images/image-equilibrium.jpg" alt="Equilibrium Image" />
+        <div class="image-overlay">
+          <img src="./images/icon-view.svg" alt="View Icon" />
+        </div>
+      </div>
       <div class="text-area">
         <h1 class="text-hover">Equilibrium #3429</h1>
         <p>Our Equilibrium collection promotes balance and calm.</p>
@@ -42,11 +37,7 @@
         <div class="line"></div>
         <div>
           <div class="horizontal-flex flex-gap-big">
-            <img
-              src="images/image-avatar.png"
-              alt="Avatar Image"
-              class="avatar"
-            />
+            <img src="images/image-avatar.png" alt="Avatar Image" class="avatar" />
             <p>Creation of <span class="name text-hover">Jules Wyvern</span></p>
           </div>
         </div>
