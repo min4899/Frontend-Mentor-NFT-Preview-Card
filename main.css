@@ -29,13 +29,17 @@ body {
 h1 {
   color: var(--white);
   font-weight: 600;
-  font-size: 1.35rem;
+  font-size: 1.22rem;
 }
 
 p {
   color: var(--primary);
   font-weight: 300;
   line-height: 1.6rem;
+}
+
+.font-weight-med {
+  font-weight: 400;
 }
 
 .horizontal-flex {
@@ -62,7 +66,7 @@ p {
   background: var(--cardBG);
   width: 20.5rem;
   height: fit-content;
-  padding: 1.55rem;
+  padding: 1.5rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -70,7 +74,7 @@ p {
 }
 
 .text-area {
-  margin-top: 1.55rem;
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -107,7 +111,6 @@ p {
 
 .price {
   color: var(--accent);
-  font-weight: 400;
 }
 
 .line {
