@@ -56,11 +56,12 @@ p {
 .card {
   background: var(--cardBG);
   width: 20.5rem;
+  height: fit-content;
   padding: 1.55rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 2.5rem 2rem -1rem rgb(128 128 128 / 17%);
+  box-shadow: 0 1.5em 1.5em 2em rgba(0, 0, 0, 0.11);
 }
 
 .text-area {
