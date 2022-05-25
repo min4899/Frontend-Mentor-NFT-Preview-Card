@@ -29,7 +29,7 @@ body {
 h1 {
   color: var(--white);
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1.35rem;
 }
 
 p {
@@ -45,19 +45,29 @@ p {
   gap: 0.4rem;
 }
 
+.flex-gap-big {
+  gap: 0.9rem;
+}
+
 .space-between {
   justify-content: space-between;
 }
 
 .card {
   background: var(--cardBG);
-  width: 20rem;
-  padding: 1.5rem;
+  width: 20.5rem;
+  padding: 1.55rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
   box-shadow: 0 2.5rem 2rem -1rem rgb(128 128 128 / 17%);
+}
+
+.text-area {
+  margin-top: 1.55rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .card-image {
@@ -71,9 +81,18 @@ p {
   font-weight: 400;
 }
 
+.line {
+  border-top: 0.05em solid var(--line);
+}
+
 .avatar {
-  width: 2.5em;
-  border-style: solid;
+  width: 2.2em;
   border-radius: 50%;
+  border-style: solid;
   border-color: var(--white);
+  border-width: 0.1em;
+}
+
+.name {
+  color: var(--white)
 }
