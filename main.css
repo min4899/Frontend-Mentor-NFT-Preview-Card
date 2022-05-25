@@ -53,6 +53,11 @@ p {
   justify-content: space-between;
 }
 
+.text-hover:hover {
+  color: var(--accent);
+  cursor: pointer;
+}
+
 .card {
   background: var(--cardBG);
   width: 20.5rem;
