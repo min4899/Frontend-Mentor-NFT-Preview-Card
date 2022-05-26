@@ -32,14 +32,16 @@ h1 {
   font-size: 1.22rem;
 }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.37rem;
+  }
+}
+
 p {
   color: var(--primary);
   font-weight: 300;
   line-height: 1.6rem;
-}
-
-.font-weight-med {
-  font-weight: 400;
 }
 
 .horizontal-flex {
@@ -111,6 +113,7 @@ p {
 
 .price {
   color: var(--accent);
+  font-weight: 400;
 }
 
 .line {
