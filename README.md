@@ -92,7 +92,7 @@ I'd also like to learn when to use certain CSS units. I've been using mostly rem
 ### Useful resources
 
 - [How To Create an Overlay Image Title - W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_title)
-= [CSS Layout - The position Property - W3Schools](https://www.w3schools.com/css/css_positioning.asp)
+- [CSS Layout - The position Property - W3Schools](https://www.w3schools.com/css/css_positioning.asp)
 
 ## Author
 
