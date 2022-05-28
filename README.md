@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/min4899/Frontend-Mentor-NFT-Preview-Card)
-- Live Site URL: [GitHub Pages](https://min4899.github.io/Frontend-Mentor-NFT-Preview-Card/)
+- Live Site URL: [GitHub Pages](https://min4899.github.io/Frontend-Mentor-NFT-Preview-Card-Component/)
 
 ## My process
 
